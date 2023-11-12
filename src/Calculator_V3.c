@@ -6,7 +6,6 @@
 
 #include "../inc/LBit_Math.h"
 #include "../inc/LSTD_Types.h"
-#include "../lib/MDIO_Interface.h"
 #include "../lib/KPD_interface.h"
 #include "../lib/CLCD_interface.h"
 #include "../lib/CALCULATOR_interface.h"
