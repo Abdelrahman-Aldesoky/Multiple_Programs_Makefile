@@ -6,7 +6,7 @@
 
 #include "../inc/LBit_Math.h"
 #include "../inc/LSTD_Types.h"
-#include "MDIO_interface.h"
+#include "MDIO_Interface.h"
 #include "KPD_private.h"
 #include "KPD_config.h"
 #include "KPD_interface.h"

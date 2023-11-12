@@ -6,7 +6,7 @@
 
 #include "../inc/LBit_Math.h"
 #include "../inc/LSTD_Types.h"
-#include "MDIO_interface.h"
+#include "MDIO_Interface.h"
 #include "CLCD_private.h"
 #include "CLCD_config.h"
 #include "CLCD_interface.h"
