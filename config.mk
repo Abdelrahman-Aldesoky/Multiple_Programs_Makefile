@@ -19,6 +19,7 @@ M_BUILD_DIR := ./build
 M_DEPS_DIR := ./build/dependencies
 M_LIBS_DIR := ./build/libraries
 M_OBJS_DIR := ./build/objects
+M_PROGS_DIR := ./build/programs
 M_SRCS_DIR := ./src
 
 # Lib Makefile Directories Variables
@@ -26,7 +27,6 @@ L_BUILD_DIR := ../build
 L_DEPS_DIR := ../build/dependencies
 L_LIBS_DIR := ../build/libraries
 L_OBJS_DIR := ../build/objects
-M_PROGS_DIR := ./build/programs
 L_SRCS_DIR := .
 
 # Toolchain definitions
