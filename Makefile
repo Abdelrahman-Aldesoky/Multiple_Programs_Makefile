@@ -106,7 +106,7 @@ $(M_OBJS_DIR)/%.o: $(M_SRCS_DIR)/%.c
 # Rule to create .elf files also generates binary report with the same .c file name
 $(M_PROGS_DIR)/%.elf: $(M_OBJS_DIR)/%.o $(LIBS)
 	@$(call MK_DIR,$(M_PROGS_DIR))
-	@$(CC) $(CFLAGS) $(LDFLAGS) -o $@ $< $(LIBS)
+	@$(CC) $(CFLAGS) $(LDFLAGS) $^ -o $@ $(LIBS)
 	@$(SIZE) --format=avr --mcu=$(MCU) $@ > $(M_PROGS_DIR)/binaryReport_$*.txt
 	@echo "Generated Binary: $(notdir $@) Generation Time: $(DATE_CMD)" >> $(M_BUILD_DIR)/Binaries_Status_Report.txt
 	@echo "Generated Binary: $(notdir $@) Generation Time: $(DATE_CMD)"
