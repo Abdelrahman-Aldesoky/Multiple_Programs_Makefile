@@ -2,7 +2,7 @@
 #include "../inc/LSTD_Types.h"
 #include "../lib/MDIO_Interface.h"
 #include <util/delay.h>
-//
+
 int main(void)
 {
     u8 snake_effect = 15;
